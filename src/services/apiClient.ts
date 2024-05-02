@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig, AxiosResponse, AxiosError } from "axios";
 
 // Define your base URL
-const BASE_URL = "";
+const BASE_URL = "https://api.weekday.technology";
 
 // Create an instance of axios with custom configurations
 const instance = axios.create({
